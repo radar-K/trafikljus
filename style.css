@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.trafikljus {
+    width: 100px;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.lampa {
+    width: 80px;
+    height: 80px;
+    margin: 10px auto;
+    border-radius: 50%;
+    background-color: #444;
+    box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.röd {
+    background-color: red;
+}
+
+.gul {
+    background-color: yellow;
+}
+
+.grön {
+    background-color: green;
+}
+
+.aktiv {
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.8);
+}
