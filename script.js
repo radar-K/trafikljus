@@ -30,5 +30,4 @@ function tändNästaLampa() {
     nuvarandeLampa = (nuvarandeLampa + 1) % 3; // Går tillbaka till 0 efter grön lampa
 }
 
-// Steg 5: Lägg till en "click"-händelse på knappen
 knapp.addEventListener("click", tändNästaLampa);
